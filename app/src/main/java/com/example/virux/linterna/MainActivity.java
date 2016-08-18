@@ -32,8 +32,10 @@ public class MainActivity extends AppCompatActivity {
                 Parameters parameters = camera.getParameters();
                 if (apagado){
                     parameters.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
+                    apagado=false;
                 }else {
                     parameters.setFlashMode(Parameters.FLASH_MODE_OFF);
+                    apagado=true;
                 }
                 camera.setParameters(parameters);
 

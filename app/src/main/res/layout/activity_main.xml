@@ -9,23 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.virux.linterna.MainActivity">
 
-    <ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New ToggleButton"
-        android:id="@+id/toggleButton"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="168dp" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Encender"
         android:id="@+id/buttonEncender"
-        android:layout_below="@+id/toggleButton"
         android:layout_marginTop="86dp"
-        android:layout_alignRight="@+id/toggleButton"
-        android:layout_alignEnd="@+id/toggleButton"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
